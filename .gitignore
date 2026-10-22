@@ -1,0 +1,17 @@
+﻿# Generated ROOT / MC output
+*.root
+/output/
+
+# Build artifacts
+*.o
+*.so
+*.dll
+*.exe
+
+# Locally compiled executables
+/generate_*
+/weight_*
+
+# OS files
+.DS_Store
+Thumbs.db
