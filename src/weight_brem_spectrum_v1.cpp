@@ -77,11 +77,9 @@ constexpr long double KM3_TO_INVGEV3 =
 
 // Frozen identical-particle convention from the handoff:
 //
-// * the full labeled (k1,k2) final-state ee phase space is integrated,
-//   therefore the required final-state 1/2! is included exactly once;
-// * the handoff leaves the initial-pair counting convention for ordered
-//   (p1,p2) thermal integration to a separate audit.  We therefore do not
-//   insert an additional initial-state 1/2 here.
+// The full labeled final-state ee phase space requires a final-state 1/2!.
+// The ordered (p1,p2) thermal integration also requires an initial-state 1/2!.
+// Hence the total identical-particle rate factor is 1/4.
 constexpr long double EE_FINAL_IDENTICAL_FACTOR =
     0.5L;
 
