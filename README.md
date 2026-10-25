@@ -3,10 +3,7 @@
 ROOT-based phase-space Monte Carlo code for gravitational-wave / graviton production in a supernova core.
 
 The repository implements thermal initial-state sampling, exact ROOT phase-space generation, event-by-event physics reweighting, and the final spectrum
-
-\[
-\omega \frac{dP}{d\omega}.
-\]
+$\omega \frac{dP}{d\omega}$.
 
 ## Implemented channels
 
